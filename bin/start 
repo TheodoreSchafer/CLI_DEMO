@@ -1,0 +1,8 @@
+#!usr/bin/env ruby
+
+require_relative '../environment'
+
+puts "Hi, Im in bin/start"
+
+a = CLI.new
+a.start
